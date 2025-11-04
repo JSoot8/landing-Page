@@ -20,8 +20,7 @@ body {
 }
 
 .header > a {
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 24px;
     color: #F9FAF8;
 }
 
@@ -39,4 +38,9 @@ body {
 
 .footer {
     background-color: #1F2937;
+    padding: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
