@@ -152,7 +152,36 @@ body {
 }
 
 .sign-up {
+    padding: 8rem 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.sign-up-container {
+    padding: 40px 72px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    gap: 12rem;
+}
+
+.sign-up-header {
+    margin-bottom: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.sign-up-sub {
+    color:#E5E7EB;
+}
+
+.sign-up-button {
+    padding: 8px 32px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color:#3882F6;
+    color: white;
 }
 
 .footer {
