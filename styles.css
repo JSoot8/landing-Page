@@ -145,6 +145,7 @@ body {
 }
 
 .quote-giver {
+    font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
     padding-right: 40px;
