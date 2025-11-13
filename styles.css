@@ -11,20 +11,9 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.container {
-    width: 100%;
-    padding: 24px 16rem 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 32px;
-    background-color: #1F2937;
-    margin: 0 auto;
-}
-
 .header {
     background-color: #1F2937;
-    padding: 0 0 16px;;
+    padding: 16px 16rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,6 +34,7 @@ body {
 
 .hero {
     background-color: #1F2937;
+    padding: 8px 16rem 24px;
     display: flex;
     justify-content: center;
     align-items: stretch;
