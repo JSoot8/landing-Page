@@ -11,7 +11,7 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.header {
+.navbar {
     background-color: #1F2937;
     padding: 16px 16rem;
     display: flex;
@@ -19,12 +19,17 @@ body {
     justify-content: space-between;
 }
 
-.header .logo {
+.navbar .logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.header > ul {
+.navbar a {
+    text-decoration: none;
+    color: #F9FAF8
+}
+
+.navbar > ul {
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -78,7 +83,7 @@ body {
     width: 100%;
 }
 
-.content {
+.main-area {
     flex: 1;
 }
 
@@ -134,7 +139,7 @@ body {
     color: #1F2937;
 }
 
-.quote-giver {
+.quote-citer {
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
@@ -161,6 +166,7 @@ body {
     margin-bottom: 4px;
     color: white;
     font-weight: bold;
+    margin: 0;
 }
 
 .sign-up-sub {
@@ -173,6 +179,7 @@ body {
     border-radius: 8px;
     background-color:#3882F6;
     color: white;
+    font-size: 16px;
 }
 
 .footer {
